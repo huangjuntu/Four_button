@@ -4,118 +4,31 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<style type="text/css">
-			body {
-				background: url(img/biglogo2-1.jpg) no-repeat center center fixed;
-				background-size: 100% 100%;
-			}
-			
-			.button_all {
-				position: absolute;
-				top: 22%;
-				right: 15%;
-				width: 300px;
-				height: 405px;
-			}
-			
-			.button {
-				display: inline-block;
-				outline: none;
-				cursor: pointer;
-				text-align: center;
-				font: 14px/100% Arial, Helvetica, sans-serif;
-				padding: 0.7em 3.2em 0.75em;
-				text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
-				border-radius: .5em;
-				box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-				margin: 10%;
-			}
-			
-			.button:active {
-				position: relative; 
-				top:1px;
-			}
-			
-			.orange {
-				color: #fef4e9;
-				border: solid 1px #da7c0c;
-				background: #f78d1d;
-			}
-			
-			.orange:hover {
-				background: #f47c20;
-			}
-			
-			.orange:active {
-				color: #fcd3a5;
-			}
-			
-			.blue {
-				color: #d9eef7;
-				border: solid 1px #0076a3;
-				background: #0095cd;
-			}
-			
-			.blue:hover {
-				background: #007ead;
-			}
-			
-			.blue:active {
-				color: #80bed6;
-			}
-			
-			.red {
-				color: #faddde;
-				border: solid 1px #980c10;
-				background: #d81b21;
-			}
-			
-			.red:hover {
-				background: #b61318;
-			}
-			
-			.red:active {
-				color: #de898c;
-			}
-			/* green */
-			
-			.green {
-				color: #e8f0de;
-				border: solid 1px #538312;
-				background: #64991e;
-			}
-			
-			.green:hover {
-				background: #538018;
-			}
-			
-			.green:active {
-				color: #a9c08c;
-			}
-		</style>
+		<link rel="stylesheet" href="index.css" />
 	</head>
 
 	<body>
+		<div class="logo"></div>
 		<div class="button_all">
-			<button class="button orange">按钮一</button>
-			<button class="button blue">按钮二</button>
-			<button class="button red">按钮三</button>
-			<button class="button green">按钮四</button>
+			<button class="button orange">os系统</button>
+			<button class="button blue">宣传片</button>
+			<button class="button red">欢迎屏</button>
+			<button class="button green">抽奖</button>
 		</div>
 		<script src="js/jquery.js" type="text/javascript"></script>
 		<script>
-			$(function(){
-				$(".orange").click(function(){
-					window.location.href="http://www.baidu.com";
+			$(function() {
+				$(".orange").click(function() {
+					window.location.href = "http://www.baidu.com";
 				})
-				$(".blue").click(function(){
-					window.location.href="http://www.jq22.com";
+				$(".blue").click(function() {
+					window.location.href = "http://www.jq22.com";
 				})
-				$(".red").click(function(){
-					window.location.href="http://www.easyicon.net/";
+				$(".red").click(function() {
+					window.location.href = "http://www.easyicon.net/";
 				})
-				$(".green").click(function(){
-					window.location.href="http://www.baidu.com";
+				$(".green").click(function() {
+					window.location.href = "http://www.baidu.com";
 				})
 			})
 		</script>
